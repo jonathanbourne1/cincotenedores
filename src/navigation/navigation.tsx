@@ -13,7 +13,8 @@ import Search from './../navigation/search-navigation/search-navigation';
 import Top5 from '../navigation/top-restaurants-navigation/top5-stack';
 //------------------------------ICONS
 import {Icon} from 'react-native-elements';
-
+//------------------------------Colors
+import Colors from '../assets/colors/constants';
 //-------------------------------FUNCTION FOR ICONS
 const screenOptions = (route, color) => {
   let iconName: string;
@@ -48,6 +49,10 @@ const Navigation = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator
+        tabBarOptions={{
+          inactiveTintColor: Colors.grey001,
+          activeTintColor: Colors.grey001,
+        }}
         initialRouteName="Account"
         screenOptions={({route}) => ({
           tabBarIcon: ({color}) => screenOptions(route, color),

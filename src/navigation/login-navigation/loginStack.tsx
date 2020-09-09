@@ -11,7 +11,7 @@ import Login from '../../screens/login-screens/login-screen';
 const LoginNavigation: FC<{}> = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="login" component={Login} />
+      <Stack.Screen name="Login" component={Login} />
     </Stack.Navigator>
   );
 };
