@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "457309684881",
+    "firebase_url": "https://cincotenerdores.firebaseio.com",
+    "project_id": "cincotenerdores",
+    "storage_bucket": "cincotenerdores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457309684881:android:c52df13bf6eecbd2526b30",
+        "android_client_info": {
+          "package_name": "com.cincotenedores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457309684881-s2ssfuhtu13q7r1kt6rtged0fpd7toc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFsrpfxF3lmUAuA-f4A4pt0cnA5_8Rf7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457309684881-s2ssfuhtu13q7r1kt6rtged0fpd7toc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
